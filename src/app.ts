@@ -11,7 +11,7 @@ import { BaileysProvider } from "@bot-whatsapp/provider-baileys";
 
 import setupRoutes from "./routes";
 // import getConnection from "./Functions/Funciones";
-
+const port = process.env.PORT || 3001
 
 const main = async () => {
   const Provider = createProvider(BaileysProvider);
